@@ -32,6 +32,12 @@ body{
     --color-8: #202124;
     --color-9: #fdfdfd ;
 }
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 5px;
+}
 /* mobile view */
 @media (max-width: 599px){
     body{
@@ -498,7 +504,7 @@ body{
         .name {
             font-family: 'Roboto', sans-serif;
             font-size: 25px;
-            font-weight: 500;
+            font-weight: 300;
             padding-bottom: 8px;
             padding-top: 15px;
         }

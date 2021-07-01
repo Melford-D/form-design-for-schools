@@ -47,8 +47,6 @@
       userSection.append(userElementH3);
   }
 
-  var messageRef = firebase.database().ref('student/'+rollV);
-
 // Submit Form Data
     document.getElementById('contactForm').addEventListener('submit', submitForm)
 
@@ -74,7 +72,6 @@
       setTimeout(() => {
         document.querySelector('.serverResponse').style.display = 'none';
       }, 10000);
-
       document.getElementById('contactForm').reset();
   }
 
@@ -95,27 +92,3 @@
       rollV = document.getElementById("rollbox").value;
       if(rollV) return messageRef.remove();
   }
-
-
-
-
-
-
-
-
-
-
-
-
-  // Retrieve User Data
-  // document.getElementById('contactForm').addEventListener('select', selectData);
-
-  // function selectData(e){
-  //     e.preventDefault();
-  //     Ready();
-  //         messageRef.on('value', function(snapshot){
-  //         document.getElementById('namebox').value = snapshot.val().NameOfStudent;
-  //         document.getElementById('secbox').value = snapshot.val().Section;
-  //         document.getElementById('genbox').value = snapshot.val().Gender;
-  //     });
-  // }
