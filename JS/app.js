@@ -1,5 +1,5 @@
     var firebaseConfig = {
-        apiKey: "AIzaSyDX27p0gt9fZ8NwWY6OfMn8AAofgtl77ro",
+        apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
         authDomain: "profile-card-be3b8.firebaseapp.com",
         databaseURL: "https://profile-card-be3b8-default-rtdb.firebaseio.com/",
         projectId: "profile-card-be3b8",
